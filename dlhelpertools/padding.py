@@ -27,6 +27,10 @@ def img_resize_and_paddig(img, size=(224, 244), color=(255, 255, 255), show=Fals
         cv2.imwrite(RF"{os. getcwd()}\padded.jpg",padded_img)
         print(RF"File saved at {os. getcwd()}\padded.jpg")
     if show:
-        cv2.imshow(rf"padded_image",padded_img)  
+        while True:
+            cv2.imshow(rf"padded_image",padded_img)
+            if cv2.waitKey(2) & 0xFF == 27: #press ESC for exit
+                break
+        cv2.destroyAllWindows() 
         
     return padded_img
