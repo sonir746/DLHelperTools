@@ -1,10 +1,9 @@
-from distutils.command import install_lib
 from setuptools import setup
 import os
 
 setup(name="dlhelpertools",
-      version="0.1.1",
+      version="0.1.0",
       packages=["dlhelpertools"],
-      install_requires=["numpy","opencv-python"]
-      
+      install_requires=["numpy","opencv-python"],
+      keywords=["python","image padding","padding"]
       )
