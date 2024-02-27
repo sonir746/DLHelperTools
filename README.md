@@ -52,7 +52,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, size=(300, 400) ,path=p
 <br>
 By Default we use white padding (255, 255, 255)<br>
 You can also use diff. color padding<br>
-NOTE: color in **BGR** formate<br>
+NOTE: color in <strong>BGR</strong> formate<br>
 <br>
 
 ```Python
