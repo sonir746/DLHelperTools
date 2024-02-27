@@ -44,7 +44,7 @@ path = RF"path_for_save"
 padding.img_resize_and_paddig(img, show=True, save=True, size=(300, 400) ,path=path)
 ```
 
-## Output Image
+### Output Image
 
 <p align="center">
 <img src="test\img\padded1709017389.819483.jpg" alt="loading..."/></p>
@@ -63,7 +63,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, color=Red,size=(300,400
 
 <br>
 
-## Output Image
+### Output Image
 <p align="center">
 <img src="test\img\padded1709017926.6538558.jpg" alt="loading..."/>
 </p>
