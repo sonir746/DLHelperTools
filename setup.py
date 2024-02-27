@@ -3,6 +3,7 @@ import os
 
 setup(name="dlhelpertools",
       author="RAHUL SONI",
+      license="UNKNOWN",
       version="0.1.0",
       packages=["dlhelpertools"],
       install_requires=["numpy","opencv-python"],
