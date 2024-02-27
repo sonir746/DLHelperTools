@@ -48,6 +48,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, size=(300, 400) ,path=p
 
 <p align="center">
 <img src="test\img\padded1709017389.819483.jpg" alt="loading..."/></p>
+
 <br>
 By Default we use white padding (255, 255, 255)<br>
 You can also use diff. color padding<br>
@@ -66,6 +67,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, color=Red,size=(300,400
 <p align="center">
 <img src="test\img\padded1709017926.6538558.jpg" alt="loading..."/>
 </p>
+
 ## Auther
 
 👨🏻‍💼RAHUL SONI
