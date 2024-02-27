@@ -2,8 +2,9 @@ import numpy as np
 import cv2
 import math
 import os
+import time
 
-def img_resize_and_paddig(img, size=(224, 244), color=(255, 255, 255), show=False, save=False):
+def img_resize_and_paddig(img, size=(224, 244), color=(255, 255, 255), show=False, save=False, path=RF"{os. getcwd()}"):
 
     h_new,w_new=size
     h,w, channels = img.shape
@@ -24,8 +25,8 @@ def img_resize_and_paddig(img, size=(224, 244), color=(255, 255, 255), show=Fals
         hGap = math.ceil((h_new-hCal)/2)
         padded_img[ hGap:hCal+hGap: , : ]= imgResize
     if save:
-        cv2.imwrite(RF"{os. getcwd()}\padded.jpg",padded_img)
-        print(RF"File saved at {os. getcwd()}\padded.jpg")
+        cv2.imwrite(RF"{path}\padded{time.time()}.jpg",padded_img)
+        print("\n"+RF'File saved at "{path}\padded{time.time()}.jpg"'+"\n")
     if show:
         while True:
             cv2.imshow(rf"padded_image",padded_img)
@@ -34,3 +35,5 @@ def img_resize_and_paddig(img, size=(224, 244), color=(255, 255, 255), show=Fals
         cv2.destroyAllWindows() 
         
     return padded_img
+
+
