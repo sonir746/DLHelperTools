@@ -15,7 +15,7 @@ This dlhelpertools is designed to help ai model building
 ### Sample input image
 
 <p align="center">
-<img src="test\img\img.jpg" alt="loading..." /></p>
+<img src="img\img.jpg" alt="loading..." /></p>
 
 ## Source Code
 
@@ -31,7 +31,7 @@ padding.img_resize_and_paddig(img, show=True, save=True)
 ### Output image
 
 <p align="center">
-<img src="test\img\padded.jpg" alt="loading..."/></p>
+<img src="img\padded.jpg" alt="loading..."/></p>
 
 <br>
 
@@ -47,7 +47,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, size=(300, 400) ,path=p
 ### Output Image
 
 <p align="center">
-<img src="test\img\padded1709017389.819483.jpg" alt="loading..."/></p>
+<img src="img\padded1709017389.819483.jpg" alt="loading..."/></p>
 
 <br>
 By Default we use white padding (255, 255, 255)<br>
@@ -65,7 +65,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, color=Red,size=(300,400
 
 ### Output Image
 <p align="center">
-<img src="test\img\padded1709017926.6538558.jpg" alt="loading..."/>
+<img src="img\padded1709017926.6538558.jpg" alt="loading..."/>
 </p>
 
 ## Auther
