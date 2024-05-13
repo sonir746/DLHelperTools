@@ -1,6 +1,6 @@
-# dlhelpertools
+# DLHelperTools
 
-This dlhelpertools is designed to help ai model building
+This DLHelperTools is designed to help ai model building
 
 ## Packages Used
 
@@ -75,7 +75,7 @@ padding.img_resize_and_paddig(img, show=True, save=True, color=Red,size=(300,400
 [![linkedin](https://img.shields.io/twitter/url?url=https%3A%2F%2Fwww.linkedin.com&style=social&logo=Linkedin&logoColor=White&label=Linkedin&labelColor=blue&color=blue&cacheSeconds=3600
 )](https://www.linkedin.com/in/rahul-soni-004861227)
 [![GitHub](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2F&style=social&logo=GitHub&logoColor=Black&label=GitHub&labelColor=abcdef&color=fedcba&cacheSeconds=3600
-)](https://github.com/rahulsoni746)
+)](https://github.com/sonir746)
 
 
 
@@ -90,4 +90,4 @@ Report any issue here
 👇👇👇
 <br>
 [![GitHub](https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com&style=social&logo=GitHub&label=issue&labelColor=grey&color=grey
-)](https://github.com/rahulsoni746/dlhelper_tools/issues)
+)](https://github.com/sonir746/DLHelperTools/issues)
